@@ -6,7 +6,6 @@ class Solution {
         
         for(int i=0;i<parts.length;i++){
             if(parts[i].equals("..")&&!s.empty()){
-                System.out.println("waaaaaa");
                 s.pop();
             }else if(!parts[i].equals(" ") && !parts[i].equals("") && !parts[i].equals(".") && !parts[i].equals("..")){
                 s.push(parts[i]);
